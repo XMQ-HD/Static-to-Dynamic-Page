@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+h1,.dates,button,.first-paragraph,.second-paragraph,.third-paragraph,.article-guide,.article-link{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    width: 1756px;
+    height: 1666px;
+    overflow: hidden;
+}
+.left-space{
+    width: 1090px;
+    margin-top: 14px;
+    margin-left: 100px
+}
+.left-space .background-photo{
+    width: 1090px;
+    height: 415px;
+}
+.left-space h1{
+    font-weight: 400;
+    font-size: 59px;
+    margin-top: 55.5px;
+    letter-spacing: -0.5px;
+}
+.left-space .dates{
+    font-size: 28.8px;
+    margin-top: 33px;
+    letter-spacing: 0.4px;
+}
+.left-space button{
+    width: 320px;
+    height: 72px;
+    background-color: #7d386c;
+    color: white;
+    margin-top: 30.5px;
+    font-size: 27px;
+    letter-spacing: -0.28px;
+    border: none;
+}
+.left-space button:hover{
+    opacity: 0.5;
+}
+.left-space .first-paragraph{
+    margin-top: 11px;
+    color: #7d386c;
+    font-size: 43px;
+    line-height: 58.4px;
+}
+.left-space .second-paragraph{
+    margin-top: 25.5px;
+    font-size: 30px;
+    line-height: 53px;
+    letter-spacing: -0.1px;
+}
+.left-space .third-paragraph{
+    margin-top: 26.2px;
+    font-size: 30.1px;
+    line-height: 1.75;
+    letter-spacing: -0.5px;
+}
+.right-space{
+    width: 380px;
+    margin-left: 102px;
+}
+.article-guide{
+    margin-top: 11.5px;
+    font-size: 45px;
+    color: #7d386c;
+    font-weight: 400;
+}
+.article-link-1{    
+    margin-top: 30px;
+    font-size: 26px;
+    line-height: 46px;
+    text-decoration: underline;
+}
+.article-link-2{
+    margin-top: 21.1px;
+    font-size: 25px;
+    line-height: 45.4px;
+    text-decoration: underline;
+    letter-spacing: 0.4px;
+}
+.article-link-3{
+    margin-top: 22.3px;
+    font-size: 26px;
+    line-height: 1.7;
+    text-decoration: underline;
+}
+.article-link-4{
+    margin-top: 21px;
+    font-size: 25px;
+    line-height: 46px;
+    text-decoration: underline;
+    letter-spacing: 0.2px
+}
+.article-link-1:hover,.article-link-2:hover,.article-link-3:hover,.article-link-4:hover{
+    color: #00f;
+    text-decoration: underline;
+}
